@@ -1,0 +1,137 @@
+.auction-page {
+  min-height: 100vh;
+  background: #f3f4f6;
+}
+
+.auction-page__main {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 22px 20px 40px;
+}
+
+.auction-page__header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.auction-page__title {
+  margin: 0;
+  color: #0f172a;
+  font-size: 42px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.auction-page__subtitle {
+  margin: 6px 0 0;
+  color: #475569;
+  font-size: 15px;
+}
+
+.auction-page__meta {
+  display: flex;
+  gap: 10px;
+}
+
+.auction-page__meta-item {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 12px 14px;
+  min-width: 150px;
+  text-align: right;
+}
+
+.auction-page__meta-label {
+  display: block;
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.auction-page__meta-value {
+  display: block;
+  margin-top: 4px;
+  color: #0f172a;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.auction-page__error {
+  border: 1px solid #fecaca;
+  background: #fff1f2;
+  color: #9f1239;
+  padding: 10px 12px;
+  border-radius: 12px;
+  margin-bottom: 14px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.auction-page__toast {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 50;
+  background: #0f172a;
+  color: #ffffff;
+  padding: 12px 14px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 12px 34px rgba(15, 23, 42, 0.25);
+}
+
+.auction-grid__summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 12px;
+  margin-top: 18px;
+  margin-bottom: 14px;
+}
+
+.auction-grid__summary-title {
+  color: #0f172a;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.auction-grid__summary-subtitle {
+  color: #475569;
+  font-size: 14px;
+}
+
+.auction-grid__cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+@media (max-width: 1040px) {
+  .auction-grid__cards {
+    grid-template-columns: 1fr;
+  }
+
+  .auction-page__header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .auction-page__meta-item {
+    text-align: left;
+  }
+}
+
+.auction-grid__empty {
+  border: 1px dashed #cbd5e1;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 22px;
+  color: #64748b;
+  font-size: 14px;
+  font-weight: 600;
+}

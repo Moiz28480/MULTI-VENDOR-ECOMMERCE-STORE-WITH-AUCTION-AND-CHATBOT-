@@ -1,0 +1,168 @@
+.bid-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  z-index: 60;
+}
+
+.bid-modal__panel {
+  width: 100%;
+  max-width: 520px;
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 30px 70px rgba(15, 23, 42, 0.35);
+  overflow: hidden;
+}
+
+.bid-modal__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px 16px 10px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.bid-modal__title {
+  font-size: 18px;
+  font-weight: 900;
+  color: #0f172a;
+}
+
+.bid-modal__subtitle {
+  margin-top: 4px;
+  font-size: 13px;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.bid-modal__close {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 26px;
+  line-height: 1;
+  color: #334155;
+}
+
+.bid-modal__body {
+  padding: 16px;
+}
+
+.bid-modal__info {
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 12px;
+  background: #f8fafc;
+  margin-bottom: 14px;
+}
+
+.bid-modal__info-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: #334155;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.bid-modal__info-row + .bid-modal__info-row {
+  margin-top: 8px;
+}
+
+.bid-modal__form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.bid-modal__config {
+  border: 1px solid #cbd5e1;
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.bid-modal__config-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 6px;
+}
+
+.bid-modal__label {
+  color: #0f172a;
+  font-weight: 800;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.bid-modal__input {
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 12px 12px;
+  font-size: 14px;
+  font-weight: 700;
+  outline: none;
+}
+
+.bid-modal__input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.2);
+}
+
+.bid-modal__error {
+  border: 1px solid #fecaca;
+  background: #fff1f2;
+  color: #9f1239;
+  padding: 10px 12px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.bid-modal__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.bid-modal__button {
+  border: none;
+  background: #4f46e5;
+  color: #ffffff;
+  font-weight: 900;
+  padding: 10px 14px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.bid-modal__button:hover {
+  background: #4338ca;
+}
+
+.bid-modal__button--secondary {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+.bid-modal__button--secondary:hover {
+  background: #cbd5e1;
+}
+
+.bid-modal__button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.bid-modal__hint {
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.35;
+}

@@ -1,0 +1,45 @@
+.checkout-stepper {
+  display: flex;
+  gap: 56px;
+  justify-content: center;
+  align-items: center;
+  margin: 14px 0 18px;
+}
+
+.checkout-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: #6b7280;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.checkout-step-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid #d1d5db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+}
+
+.checkout-step.is-active {
+  color: #111827;
+}
+
+.checkout-step.is-active .checkout-step-icon {
+  border-color: #4f46e5;
+  color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.12);
+}
+
+@media (max-width: 768px) {
+  .checkout-stepper {
+    gap: 22px;
+    justify-content: flex-start;
+  }
+}

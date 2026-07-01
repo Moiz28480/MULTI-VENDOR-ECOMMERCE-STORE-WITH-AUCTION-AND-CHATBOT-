@@ -1,0 +1,7 @@
+﻿<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'>
+  <defs><linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='#5b21b6'/><stop offset='100%' stop-color='#8b5cf6'/></linearGradient></defs>
+  <rect width='400' height='300' fill='url(#bg)'/>
+  <circle cx='70' cy='52' r='56' fill='rgba(255,255,255,0.12)'/>
+  <path d='M198 94 l74 -16 v16 l-14 4 v78 q0 24 -26 24 t-26 -24 q0 -24 26 -24 q10 0 14 2 v-44 l-48 10 v74 q0 24 -26 24 t-26 -24 q0 -24 26 -24 q10 0 14 2 z' fill='white' fill-opacity='0.84'/>
+  <text x='24' y='258' fill='white' font-size='27' font-family='Segoe UI, Arial, sans-serif' font-weight='700'>Musical Instruments</text>
+</svg>

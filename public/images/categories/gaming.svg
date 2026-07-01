@@ -1,0 +1,11 @@
+﻿<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'>
+  <defs><linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='#0e7490'/><stop offset='100%' stop-color='#06b6d4'/></linearGradient></defs>
+  <rect width='400' height='300' fill='url(#bg)'/>
+  <circle cx='330' cy='54' r='60' fill='rgba(255,255,255,0.12)'/>
+  <path d='M98 168 q18 -42 58 -42 h88 q40 0 58 42 q4 24 -19 34 q-21 8 -36 -10 l-18 -20 h-58 l-18 20 q-15 18 -36 10 q-23 -10 -19 -34 z' fill='white' fill-opacity='0.84'/>
+  <circle cx='170' cy='160' r='7' fill='#0e7490'/>
+  <circle cx='154' cy='176' r='7' fill='#0e7490'/>
+  <circle cx='250' cy='160' r='7' fill='#0e7490'/>
+  <circle cx='266' cy='176' r='7' fill='#0e7490'/>
+  <text x='24' y='258' fill='white' font-size='30' font-family='Segoe UI, Arial, sans-serif' font-weight='700'>Gaming</text>
+</svg>

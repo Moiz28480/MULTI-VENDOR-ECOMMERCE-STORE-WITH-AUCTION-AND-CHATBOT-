@@ -1,0 +1,12 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "AI-powered chatbot function using Google Gemini API",
+  "type": "module",
+  "main": "src/main.js",
+  "dependencies": {
+    "appwrite": "^23.0.0",
+    "@google/generative-ai": "^0.3.0",
+    "node-appwrite": "^22.1.3"
+  }
+}
