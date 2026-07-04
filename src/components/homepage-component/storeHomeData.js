@@ -55,7 +55,7 @@ export const CATEGORIES_DB_RESPONSE = [
     item_count: 1890,
     icon_type: 'shirt',
     icon_color: 'pink',
-    image_url: 'https://loremflickr.com/1200/800/fashion?lock=1004',
+    image_url: '/images/categories/fashion-apparel.svg',
     is_popular: true
   },
   {

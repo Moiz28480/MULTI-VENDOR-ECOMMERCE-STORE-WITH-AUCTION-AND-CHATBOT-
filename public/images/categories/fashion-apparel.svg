@@ -1,9 +1,23 @@
-﻿<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'>
-  <defs><linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='#be185d'/><stop offset='100%' stop-color='#ec4899'/></linearGradient></defs>
+﻿<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300' role='img' aria-label='Fashion and Apparel cover image'>
+  <defs>
+    <linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#0f172a'/>
+      <stop offset='55%' stop-color='#7c3aed'/>
+      <stop offset='100%' stop-color='#ec4899'/>
+    </linearGradient>
+    <linearGradient id='shine' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='rgba(255,255,255,0.35)'/>
+      <stop offset='100%' stop-color='rgba(255,255,255,0)'/>
+    </linearGradient>
+  </defs>
   <rect width='400' height='300' fill='url(#bg)'/>
-  <circle cx='70' cy='52' r='56' fill='rgba(255,255,255,0.12)'/>
-  <path d='M105 95 l40 -24 h40 l40 24 -16 34 -24 -14 v84 h-40 v-84 l-24 14 z' fill='white' fill-opacity='0.84'/>
-  <path d='M285 85 q20 20 40 0' fill='none' stroke='white' stroke-width='6' stroke-linecap='round'/>
-  <line x1='325' y1='86' x2='325' y2='190' stroke='white' stroke-width='6'/>
-  <text x='24' y='258' fill='white' font-size='30' font-family='Segoe UI, Arial, sans-serif' font-weight='700'>Fashion &amp; Apparel</text>
+  <circle cx='336' cy='44' r='58' fill='rgba(255,255,255,0.1)'/>
+  <circle cx='52' cy='260' r='76' fill='rgba(255,255,255,0.08)'/>
+  <path d='M126 88 L156 68 H244 L274 88 L255 126 L235 114 V220 H165 V114 L145 126 Z' fill='white' fill-opacity='0.92'/>
+  <path d='M165 114 C175 121 184 126 200 126 C216 126 225 121 235 114' fill='none' stroke='rgba(15,23,42,0.18)' stroke-width='6' stroke-linecap='round'/>
+  <path d='M176 60 Q200 38 224 60' fill='none' stroke='white' stroke-width='7' stroke-linecap='round'/>
+  <path d='M200 38 L200 58' fill='none' stroke='white' stroke-width='7' stroke-linecap='round'/>
+  <path d='M88 232 C130 196 172 188 200 188 C228 188 270 196 312 232' fill='none' stroke='rgba(255,255,255,0.28)' stroke-width='10' stroke-linecap='round'/>
+  <rect x='28' y='24' width='108' height='16' rx='8' fill='url(#shine)' opacity='0.65'/>
+  <text x='24' y='258' fill='white' font-size='28' font-family='Segoe UI, Arial, sans-serif' font-weight='700'>Fashion &amp; Apparel</text>
 </svg>
