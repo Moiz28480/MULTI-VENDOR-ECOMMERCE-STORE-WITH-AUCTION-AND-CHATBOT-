@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import { Query } from 'appwrite';
 import { databases } from '../lib/appwrite.js';
 import { addToCartItem } from '../lib/cart.js';
@@ -315,6 +315,12 @@ const ProductDescriptionPage = () => {
 
   return (
     <main className="product-description-page">
+      <div className="product-description-topbar">
+        <Link to="/store-home" className="product-description-back-btn">
+          ← Back to Home Page
+        </Link>
+      </div>
+
       <div className="product-description-layout">
         <div className="product-description-left-column">
           <section className="product-description-hero">
